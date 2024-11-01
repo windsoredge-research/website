@@ -12,7 +12,7 @@ relativeURLs = "true"
 #canonifyURLs = "true"
 
 # Local
-baseURL = "/"
+baseURL = "https://backup.windsoredge-research.com"
 publishDir = "public"
 
 # Remote
