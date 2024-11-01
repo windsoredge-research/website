@@ -1,0 +1,17 @@
+<!-- Footer -->
+<footer class="wrapper style1 align-center">
+    <div class="inner">
+        <h2>We want to hear from you</h2>
+        <p>{{ with .Site.Params.social.email }}<a target="_blank" href="mailto:{{.}}" class="solid fav icon style2 fa-envelope"></a><br /><span>{{.}}</span></a>{{end}}</p>
+        <p>{{ with .Site.Params.social.telephone }}<a target="_blank" href="tel:{{.}}" class="solid fav icon style2 fa-phone"></a><br /><span>{{.}}</span></a>{{end}}</p>
+        
+        <p><h3><a href="uploads/Privacy-policy.pdf">Privacy policy</a></h3></p>
+        <p style="font-size: 12px;">Website theme: <a target="_blank" href="https://github.com/caressofsteel/">Hugo Story</a><span class="footerspacer icon fa-diamond"></span>
+            Images courtesy of <a target="_blank" href="https://pexels.com">Pexels</a></p>
+</div>
+</footer>
+
+<!-- FontAwesome JS -->
+{{ range .Site.Params.asset.fontawesome_js -}}
+    <script type="text/javascript" src="{{ . | absURL }}"></script>
+{{- end }}

@@ -1,0 +1,16 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "About Us"
+content: |
+  We are a market research consultancy founded in the beautiful Cotswolds in 2017. 
+  Drawing on over 30 years of experience in quantitative market research and on our partnerships with 
+  some of the top qualitative consultants in the UK, we combine the knowledge, expertise and resources 
+  of a large powerhouse company with the flexible, bespoke service of a smaller agency. Our personal approach 
+  means that clients always deal directly with the managing director, and we always take great pleasure in 
+  getting to know them and their businesses.
+  <br />
+  <br />
+  With a growing list of delighted clients - who have all been a pleasure to work with and whose interests we
+  remain committed to - Windsoredge Research are here for all of your market and insight consultancy needs. 
+image: "images/image-05.jpg"

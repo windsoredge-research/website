@@ -1,0 +1,63 @@
+title : "Our services"
+content: |
+  Our goal is always to provide a full and bespoke service for our clients. With the analytical framework we
+  have through our partnership with Displayr, we can offer a range of in-house analyses and services that 
+  would typically break the bank, and our partnerships with top market research consultants mean that when 
+  we do bring in outside teams, they are the best possible hands for your business <br /><br />
+  Here are some of the services that we specialise in
+style: "style3 medium onload-fade-in"
+items:
+  # feature item loop
+  - name : "Foundation Studies"
+    content : |
+      If you are looking to strike oil, you need to survey the land before you start drilling. 
+      Foundation studies establish a broad, fundamental understanding of the market landscape, covering 
+      consumer opinions, needs, behaviour and buying decisions
+    style : "solid style2 major fa-university"
+
+  # feature item loop
+  - name : "NPD Research"
+    content : |
+      Do you already have a product and want to gauge the market readiness? Our New Product Development (NPD) 
+      research approach allows you to establish the interest and demand, define and refine the product or service 
+      itself, and determine the optimum proposition and position
+    style : "solid style2 major fa-gem"
+    
+  # feature item loop
+  - name : "Customer sentiment & tracking"
+    content : |
+      It is always important to understand what your customers think and feel about your brand, products,
+      and communications. How satisfied are they? What delights them? What are the things they want to see 
+      you improve on, and what risks driving them away? 
+    style : "solid style2 major fa-chart-line"
+    
+  # feature item loop
+  - name : "Pricing research"
+    content : |
+      What is your product or service worth? Pricing research is a unique area of insight. Price your product 
+      too low and profits walk out the door, too high and you don't get the sales. But there is always a sweet 
+      spot, and finding that Goldilocks "just right" level is the key to remaining competitive and profitable.
+      We use a number of statistical approaches and techniques, including the Gabor-Granger method and the van 
+      Westendorp price sensitivity metric, to find you that optimal pricing solution
+    style : "solid style2 major fa-tag"
+    
+  # feature item loop
+  - name : "Segmentation"
+    content : |
+      It is important to understand the different consumer groups or typologies within
+      your market and how they differ meaningfully in their needs, priorities, and behaviours. These
+      different groups are looking for different things from your product, brand or services, so understanding
+      where they're coming from and how to meet those needs can be critical to success. We use a 
+      variety of segmentation tools, all within-house, to identify, explain and illustrate the key segments for your
+      brand, including Max-Diff, conjoint and cluster analysis
+    style : "solid style2 major fa-users"
+
+  # feature item loop
+  - name : "Brand & Comms"
+    content : |
+      It is critical to understand how your brand communications are working to reach your customers and potential 
+      market audiences to positively impact and build robust relationships. 
+      Our specialist expertise in brand and communications tracking and evaluation doesn't use any black-box 
+      approaches that separate communication targets from their real-world impact; we start by establishing what 
+      you want your communications to achieve, then use that as the basis for our ongoing survey design. 
+    style : "solid style2 major fa-users"

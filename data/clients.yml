@@ -1,0 +1,30 @@
+title: Our clients
+#style: ""
+content: |
+  We have been privileged to work with some truly great clients, with lovely people on fascinating projects. 
+  Here are some of our most recent clients
+clients:
+  - title: "OXIL"
+    image: "images/logos/oxil.png"
+  - title: "Cats Protection"
+    image: "images/logos/cats-protection.png"
+  - title: "World of Sweets"
+    image: "images/logos/world-of-sweets.png"
+  - title: "Brockmans Gin"
+    image: "images/logos/brockmans.png"
+  - title: "Inn Collection Group ICG"
+    image: "images/logos/icg.png"
+  - title: "Big Society Capital"
+    image: "images/logos/bsc.png"
+  - title: "MadeBrave"
+    image: "images/logos/madebrave.png"
+  - title: "Activity Superstore"
+    image: "images/logos/activity.png"
+  - title: "Staffline"
+    image: "images/logos/staffline.png"
+  - title: "Marstones"
+    image: "images/logos/marstons.png"
+  - title: "Ahmad Tea"
+    image: "images/logos/ahmad.png"
+  - title: "Lamb Weston"
+    image: "images/logos/lamb-weston.png"

@@ -1,0 +1,34 @@
+title: "Our beliefs and priorities"
+style: "style3 medium lightbox onscroll-fade-in"
+content: |
+  We are passionate about making the voice of the consumer accessible to brands and businesses, and 
+  turning that into genuinely meaningful and actionable insights, grounded in clear statistical data.<br />
+  <br /> That means designing top 
+  quality research to bring your market into sharper focus and delivering insights expressed in ways that 
+  truly resonate within your business with commercially relevant, strategic recommendations. This results 
+  in better business decisions, giving our clients the competitive edge, and is the reason they keep coming 
+  back. <br /><br />Our core ideals and principles are:
+pictures:
+  - title: "Collaboration"
+    content: "We work as a committed partner to our clients. We are a team with you, working to get to the insight and answers that can genuinely help make better business decisions. We appreciate the sensitivities of working with different audiences - The insight team, The Board, The Creatives etc. - and we understand the importance of commercial reality and ROI."
+    image: "images/gallery/fulls/collab.jpg"
+    thumb: "images/gallery/thumbs/collab.jpg"
+    button: "Learn more"
+
+  - title: "Quality"
+    content: "We have an absolute commitment to top quality sample and survey response. We continually review the practices of panel providers and ensure we have the best field partners in the business. Your research is only as good as the quality of sample you talk to and the precision of what you ask."
+    image: "images/gallery/fulls/quality.jpg"
+    thumb: "images/gallery/thumbs/quality.jpg"
+    button: "Learn more"
+
+  - title: "Respect"
+    content: "We believe truly insightful research is only achieved by treating people with respect. The key to getting good data is through clear, targeted questionnaires that get right to the heart of the matter, empower respondents to voice their opinions, and ensure a good dialogue between our clients and their consumers."
+    image: "images/gallery/fulls/respect.jpg"
+    thumb: "images/gallery/thumbs/respect.jpg"
+    button: "Learn more"
+
+  - title: "Understanding consumers"
+    content: "We specialise in research that gives brands greater understanding of and insight into their consumers - their decision making and buying behaviour, response to brands and communications and to products, positioning and pricing. We design and use research to inform our clients' business, marketing and innovation decisions."
+    image: "images/gallery/fulls/understanding.jpg"
+    thumb: "images/gallery/thumbs/understanding.jpg"
+    button: "Learn more"
