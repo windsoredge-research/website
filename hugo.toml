@@ -12,12 +12,12 @@ relativeURLs = "true"
 #canonifyURLs = "true"
 
 # Local
-baseURL = "https://backup.windsoredge-research.com"
-publishDir = "public"
+#baseURL = "localhost:1313"
+#publishDir = "public"
 
 # Remote
-#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
-#publishDir = "//centos/sites/hugodev/hugostory/"
+baseURL = "https://home-5016586541.app-ionos.space/"
+publishDir = "public"
 
 
 ## -----------------------------------------------
