@@ -39,7 +39,7 @@ jobs:
           extended: true
 
       - name: Build Hugo assets
-        run: hugo
+        run: hugo --destination public
 
 # Please do not touch the following action
       - name: Store deployment content
