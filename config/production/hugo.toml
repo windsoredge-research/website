@@ -36,8 +36,6 @@ disableKinds = ["taxonomy", "section"]
   logo = "images/logo-small.png"
   favicon = true
   fontFamily = "Open Sans, sans-serif"
-  postcss = false
-
 
 [Params.social]
   email = "info@windsoredge-research.com"
@@ -47,5 +45,4 @@ disableKinds = ["taxonomy", "section"]
 [Params.asset]
   fontawesome_css = ["css/fontawesome-all.min.css"]
   fontawesome_js = ["js/fontawesome-all.min.js"]
-  sass = ["sass/main.scss", "sass/no-script.scss"]
-  sass_output = "css"
+  

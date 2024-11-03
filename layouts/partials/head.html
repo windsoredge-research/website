@@ -9,11 +9,21 @@
 	{{ end }}
 	
 	<!-- CSS -->
-	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "outputStyle" "expanded" "enableSourceMap" false) }}
-	<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
-	{{ $noscript := resources.Get "sass/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "css/noscript.css" "outputStyle" "expanded" "enableSourceMap" false) }}
-	<noscript><link rel="stylesheet" href="{{ ($noscript).RelPermalink }}" /></noscript>
-	
+	{{ if hugo.IsServer }}
+	{{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+	{{ else }}
+	{{ $style := resources.Get "sass/main.scss" | resources.ToCSS }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+	{{ end }}
+	{{ if hugo.IsServer }}
+	{{ $noscript := resources.Get "sass/noscript.scss" | resources.ToCSS | resources.Minify }}
+	<noscript><link rel="stylesheet" href="{{ $noscript.RelPermalink }}" /></noscript>
+	{{ else }}
+	{{ $noscript := resources.Get "sass/noscript.scss" | resources.ToCSS }}
+	<noscript><link rel="stylesheet" href="{{ $noscript.RelPermalink }}" /></noscript>
+	{{end}}
+
 	<!-- FontAwesome CSS -->
 	{{ range .Site.Params.asset.fontawesome_css -}}
 		<link rel="stylesheet" href="{{ . | absURL }}">
