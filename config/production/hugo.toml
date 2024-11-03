@@ -36,7 +36,6 @@ disableKinds = ["taxonomy", "section"]
   logo = "images/logo-small.png"
   favicon = true
   fontFamily = "Open Sans, sans-serif"
-  hugo_css_minify = false
   postcss = false
 
 
