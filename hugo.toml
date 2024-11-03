@@ -34,5 +34,6 @@ disableKinds = ["taxonomy", "section"]
 [Params]
   hugo_css_minify = false
   hugo_css_output = "css"
+  postcss = false
 
 [Params.social]
