@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windsoredge Research</title>
-    <link>//localhost:42259/</link>
+    <link>//localhost:38177/</link>
     <description>Recent content on Windsoredge Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>{year}</copyright>
-    <atom:link href="//localhost:42259/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:38177/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
