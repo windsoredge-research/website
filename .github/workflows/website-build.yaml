@@ -30,7 +30,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'v.0.124.1'
+          hugo-version: 'latest'
           extended: true
 
       - name: Build Hugo assets
@@ -46,7 +46,7 @@ jobs:
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-eu.ionos.space
-          project-id: 83103bb5-c34f-4177-9726-a9609834373f
+          project-id: 0b16ded4-5c87-423a-86d9-4f73fc329c42
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
