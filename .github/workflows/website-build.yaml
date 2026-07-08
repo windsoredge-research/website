@@ -27,29 +27,15 @@ jobs:
         with:
           submodules: 'recursive'
 
-      - name: Initialize submodules
-        run: |
-          git submodule sync
-          git submodule update --init --recursive
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
-
-      - name: Build Hugo assets
-        run: hugo --destination public
-
 # Please do not touch the following action
       - name: Store deployment content
         uses: ionos-deploy-now/artifact-action@v1
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-eu.ionos.space
-          project-id: c13cebe0-9d13-4418-a792-52ea7693b34f
+          project-id: 88c10086-0aef-4083-9b59-c5c2429273e9
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
           config-file: .deploy-now/website/config.yaml
-          action: upload 
+          action: upload
