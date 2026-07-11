@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       deployment-enabled: ${{ fromJson(steps.project.outputs.info).deployment-enabled }}
-      branch-id: ${{ fromJson(steps.project.outputs.info).branch-id }}
+      branch-id: main
     steps:
       - name: Fetch project data
         uses: ionos-deploy-now/project-action@v1
