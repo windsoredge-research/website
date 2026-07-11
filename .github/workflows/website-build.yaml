@@ -14,7 +14,7 @@ on:
         type: string
 
 env:
-  DEPLOYMENT_FOLDER: public
+  DEPLOYMENT_FOLDER: dist
 
 jobs:
 # Please do not rename this job
@@ -38,7 +38,7 @@ jobs:
 #        env:
 #          MY_ENV_VAR: value-for-my-env-var
 #          MY_SECRET_ENV_VAR: ${{ secrets.MY_SECRET }} # here you can find information how to create secrets: https://docs.github.com/en/actions/security-guides/encrypted-secrets
-        run: hugo
+        run: hugo --gc --minify -b ${{ inputs.site-url }}
 
 # Please do not touch the following action
       - name: Store deployment content
@@ -46,7 +46,7 @@ jobs:
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-eu.ionos.space
-          project-id: dc41db9a-cf94-4943-a9f5-3f3ff2217e77
+          project-id: 61f53eab-0041-4811-8be0-243d4191f35d
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
