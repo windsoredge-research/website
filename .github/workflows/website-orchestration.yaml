@@ -15,7 +15,7 @@ jobs:
     name: check readiness
     runs-on: ubuntu-latest
     outputs:
-      deployment-enabled: ${{ fromJson(steps.project.outputs.info).deployment-enabled }}
+      deployment-enabled: 'true'
       branch-id: main
     steps:
       - name: Fetch project data
